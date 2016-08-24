@@ -1,0 +1,2 @@
+"use strict";System.register([],function(r,t){function e(r,t){var e=i[r];e?e.push(t):i[r]=[t]}function n(r,t){var e=i[r];if(e){var n=!0,o=!1,a=void 0;try{for(var u,f=e[Symbol.iterator]();!(n=(u=f.next()).done);n=!0){var c=u.value;c(t)}}catch(s){o=!0,a=s}finally{try{!n&&f["return"]&&f["return"]()}finally{if(o)throw a}}}}var i;t&&t.id;return r("hook",e),r("trigger",n),{setters:[],execute:function(){r("hooks",i={})}}});
+//# sourceMappingURL=maps/hooks.js.map

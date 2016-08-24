@@ -1,0 +1,85 @@
+@import "./mixins/common";
+@link: black;
+@postBG: red;
+@border: 1px solid black;
+@bold: black;
+@admin: red;
+@mod: black;
+
+blockquote a:hover {
+	color: black;
+    font-weight:bold;
+}
+a:hover, blockquote a, .editing a:hover {
+	color: black;
+    font-weight:bold;
+}
+a#options, span#sync, a#feedback{
+     color: black;
+}
+article, aside, .modal, .bmodal, .pagination, .preview, popup-menu, #banner {
+	background: url(rave_bg.gif);
+	opacity: 0.9;
+}
+.editing {
+	background-color: #cec952;
+	border-color: #aa3;
+	color: black;
+	a , header{
+		color: #222;
+	}
+	em {
+		color: #656d28;
+	}
+	li {
+		color: #ddd;
+	}
+	.themed {
+		color: #333;
+	}
+}
+body{
+	background-image: url(rave_dance.gif),
+		url(rave_tint.gif);
+    background-attachment: fixed;
+    color: black;
+}
+body, pre, .themed {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.embed {
+	background-color: white;
+}
+em {
+	color: black;
+}
+h1 {
+	font: bolder 28px Tahoma;
+	letter-spacing: -2px;
+}
+h2 {
+	font-family: Tahoma;
+}
+h3 {
+	color: #ce52c9;
+}
+hr {
+	border-top: 1px solid #282a2e;
+}
+.popup-menu li:hover {
+	background-color: #136;
+}
+.omit {
+	color: black;
+}
+#lock {
+	background-image: url('ui/invlock.svg');
+	background-size: 1em 1em;
+}
+.option_tab_sel a.tab_sel{
+	color: white;
+}
+.themed {
+	color: #999;
+}

@@ -1,0 +1,3 @@
+	zip warning: name not matched: /home/users/meguca/server/www
+
+zip error: Nothing to do! (try: zip -r /home/users/meguca/server/www/thumbsAndStuff.zip . -i /home/users/meguca/server/www)
